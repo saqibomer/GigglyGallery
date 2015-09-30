@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		AAADA8501BBBCB320004CB30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAADA84F1BBBCB320004CB30 /* AppDelegate.swift */; };
-		AAADA8521BBBCB320004CB30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAADA8511BBBCB320004CB30 /* ViewController.swift */; };
 		AAADA8551BBBCB320004CB30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAADA8531BBBCB320004CB30 /* Main.storyboard */; };
 		AAADA8581BBBCB320004CB30 /* GigglyGallery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAADA8561BBBCB320004CB30 /* GigglyGallery.xcdatamodeld */; };
 		AAADA85A1BBBCB320004CB30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAADA8591BBBCB320004CB30 /* Assets.xcassets */; };
 		AAADA85D1BBBCB320004CB30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAADA85B1BBBCB320004CB30 /* LaunchScreen.storyboard */; };
 		AAADA8681BBBCB330004CB30 /* GigglyGalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAADA8671BBBCB330004CB30 /* GigglyGalleryTests.swift */; };
 		AAADA8731BBBCB330004CB30 /* GigglyGalleryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAADA8721BBBCB330004CB30 /* GigglyGalleryUITests.swift */; };
+		AAADA8811BBBCB700004CB30 /* GigglyGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAADA8801BBBCB700004CB30 /* GigglyGalleryViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		AAADA8831BBBE2390004CB30 /* ImagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAADA8821BBBE2390004CB30 /* ImagesCollectionViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		AAADA8851BBBE6D20004CB30 /* ImageCacheController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAADA8841BBBE6D20004CB30 /* ImageCacheController.swift */; settings = {ASSET_TAGS = (); }; };
+		AAADA8871BBBFE7F0004CB30 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAADA8861BBBFE7F0004CB30 /* PreviewViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,6 @@
 /* Begin PBXFileReference section */
 		AAADA84C1BBBCB320004CB30 /* GigglyGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GigglyGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAADA84F1BBBCB320004CB30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AAADA8511BBBCB320004CB30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AAADA8541BBBCB320004CB30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAADA8571BBBCB320004CB30 /* GigglyGallery.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GigglyGallery.xcdatamodel; sourceTree = "<group>"; };
 		AAADA8591BBBCB320004CB30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		AAADA86E1BBBCB330004CB30 /* GigglyGalleryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GigglyGalleryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAADA8721BBBCB330004CB30 /* GigglyGalleryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GigglyGalleryUITests.swift; sourceTree = "<group>"; };
 		AAADA8741BBBCB330004CB30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAADA8801BBBCB700004CB30 /* GigglyGalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GigglyGalleryViewController.swift; sourceTree = "<group>"; };
+		AAADA8821BBBE2390004CB30 /* ImagesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesCollectionViewCell.swift; sourceTree = "<group>"; };
+		AAADA8841BBBE6D20004CB30 /* ImageCacheController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCacheController.swift; sourceTree = "<group>"; };
+		AAADA8861BBBFE7F0004CB30 /* PreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				AAADA84F1BBBCB320004CB30 /* AppDelegate.swift */,
-				AAADA8511BBBCB320004CB30 /* ViewController.swift */,
+				AAADA8821BBBE2390004CB30 /* ImagesCollectionViewCell.swift */,
+				AAADA8841BBBE6D20004CB30 /* ImageCacheController.swift */,
+				AAADA8801BBBCB700004CB30 /* GigglyGalleryViewController.swift */,
+				AAADA8861BBBFE7F0004CB30 /* PreviewViewController.swift */,
 				AAADA8531BBBCB320004CB30 /* Main.storyboard */,
 				AAADA8591BBBCB320004CB30 /* Assets.xcassets */,
 				AAADA85B1BBBCB320004CB30 /* LaunchScreen.storyboard */,
@@ -258,9 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAADA8521BBBCB320004CB30 /* ViewController.swift in Sources */,
 				AAADA8501BBBCB320004CB30 /* AppDelegate.swift in Sources */,
 				AAADA8581BBBCB320004CB30 /* GigglyGallery.xcdatamodeld in Sources */,
+				AAADA8831BBBE2390004CB30 /* ImagesCollectionViewCell.swift in Sources */,
+				AAADA8811BBBCB700004CB30 /* GigglyGalleryViewController.swift in Sources */,
+				AAADA8851BBBE6D20004CB30 /* ImageCacheController.swift in Sources */,
+				AAADA8871BBBFE7F0004CB30 /* PreviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +415,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GigglyGallery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaboomlabs.GigglyGallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,6 +427,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GigglyGallery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaboomlabs.GigglyGallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -487,6 +501,7 @@
 				AAADA8791BBBCB330004CB30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAADA87A1BBBCB330004CB30 /* Build configuration list for PBXNativeTarget "GigglyGalleryTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +510,7 @@
 				AAADA87C1BBBCB330004CB30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAADA87D1BBBCB330004CB30 /* Build configuration list for PBXNativeTarget "GigglyGalleryUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +519,7 @@
 				AAADA87F1BBBCB330004CB30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
